@@ -16,28 +16,28 @@ def _(arg):
 # Add-on information variables
 addon_info = {
 	# add-on Name/identifier, internal for NVDA
-	"addon_name": "Show Clipboard Content",
+	"addon_name": "ShowClipboard",
 	# Add-on summary, usually the user visible name of the addon.
 	# Translators: Summary for this add-on
 	# to be shown on installation and add-on information found in Add-ons Manager.
 	"addon_summary": _("Show Clipboard Content"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-	"addon_description": _("""This add-on use to show your clipboard content in a browsable window."""),
+	"addon_description": _("""This add-on used to show your clipboard content in a browsable window."""),
 	# version
 	"addon_version": "1.0",
 	# Author(s)
 	"addon_author": "Hoàng Long",
 	# URL for the add-on documentation support
-	"addon_url": None,
+	"addon_url": "https://github.com/Hoang-Long2012/ShowClipboard",
 	# URL for the add-on repository where the source code can be found
-	"addon_sourceURL": None,
+	"addon_sourceURL": "https://github.com/Hoang-Long2012/ShowClipboard",
 	# Documentation file name
 	"addon_docFileName": "readme.html",
 	# Minimum NVDA version supported (e.g. "2018.3.0", minor version is optional)
 	"addon_minimumNVDAVersion": "2025.1",
 	# Last NVDA version supported/tested (e.g. "2018.4.0", ideally more recent than minimum version)
-	"addon_lastTestedNVDAVersion": "2026.1.1",
+	"addon_lastTestedNVDAVersion": "2026.1",
 	# Add-on update channel (default is None, denoting stable releases,
 	# and for development releases, use "dev".)
 	# Do not change unless you know what you are doing!
@@ -45,7 +45,7 @@ addon_info = {
 	# Add-on license such as GPL 2
 	"addon_license": "GPL 2",
 	# URL for the license document the ad-on is licensed under
-	"addon_licenseURL": None,
+	"addon_licenseURL": "https://www.gnu.org/licenses/gpl-2.0.html",
 }
 
 # Define the python files that are the sources of your add-on.
