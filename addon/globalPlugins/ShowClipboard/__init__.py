@@ -4,6 +4,7 @@ import api
 import addonHandler
 from scriptHandler import script
 from globalCommands import SCRCAT_SYSTEM
+from logHandler import log
 
 addonHandler.initTranslation()
 ScriptCategory = SCRCAT_SYSTEM
@@ -15,15 +16,20 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_showClipboard(self, gesture):
 		Clipboard_Text = api.getClipData()
 		if not isinstance(Clipboard_Text, str):
-			ui.message(_("Clipboard is not text.")
+			ui.message(_("There is no text on the clipboard"))
+			return None
+		if not Clipboard_Text:
+			ui.message(_("There is no text on the clipboard"))
+			return None
 
 		# Translations for window title
 		Title = _("Clipboard text")
 
 		try:
 			ui.browseableMessage(message=Clipboard_Text, title=Title)
-		except:
-			ui.message(_("Cannot display clipboard.")
+		except Exception:
+			log.exception("Unable to display clipboard")
+			ui.message(_("Unable to display clipboard."))
 
 	__gestures = {
 		"kb:NVDA+Windows+X": "showClipboard"
