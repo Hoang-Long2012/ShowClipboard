@@ -23,7 +23,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			return None
 
 		# Translations for window title
-		Title = _("Clipboard text")
+		# Title = _("Clipboard text")
 
 		try:
 			ui.browseableMessage(message=Clipboard_Text, title=Title)
