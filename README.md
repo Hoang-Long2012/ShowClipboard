@@ -11,4 +11,4 @@ This add-on has the function Show your clipboard content in a browseable window.
 
 ## Changelog
 Read changelog from:
-https://github.com/Hoang-Long2012/ShowClipboard/blobs/main/changelog.md
+https://github.com/Hoang-Long2012/ShowClipboard/blob/main/changelog.md
