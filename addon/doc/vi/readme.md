@@ -2,7 +2,7 @@
 Phiên bản: 1.0  
 Tác giả: Hoàng Long  
 Kho lưu trữ:  
-https://github.com/Hoang-Long2012/ShowClipboard/
+https://github.com/Hoang-Long2012/ShowClipboard/  
 Tiện ích bổ sung này có chức năng Hiển thị nội dung clipboard của bạn trong một cửa sổ có thể duyệt.
 
 ## Phím nóng

@@ -2,7 +2,7 @@
 Version: 1.0  
 Author: Hoàng Long  
 Repositories:  
-https://github.com/Hoang-Long2012/ShowClipboard/
+https://github.com/Hoang-Long2012/ShowClipboard/  
 This add-on has the function Show your clipboard content in a browseable window.
 
 ## Hotkey
