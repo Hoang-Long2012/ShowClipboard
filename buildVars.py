@@ -23,7 +23,7 @@ addon_info = {
 	"addon_summary": _("Show Clipboard Content"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-	"addon_description": _("""This add-on used to show your clipboard content in a browsable window."""),
+	"addon_description": _("""This add-on used to show your clipboard content in a browseable window."""),
 	# version
 	"addon_version": "1.0",
 	# Author(s)
